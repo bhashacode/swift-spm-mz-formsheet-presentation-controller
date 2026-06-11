@@ -18,7 +18,6 @@ Here are a couple of images showing `MZFormSheetPresentationController` in actio
 
 ## 2.x Change Log:
 * Fully tested and certified for iOS 9
-* Support for tvOS
 * Fixed issue with text size based on size class
 * Fixed autolayout issues
 * Added dissmisal pan gesture on each direction
@@ -44,46 +43,39 @@ As a major version change, the API introduced in 2.0 is not backward compatible 
 
 ## Requirements
 
-MZFormSheetPresentationController requires either iOS 8.x and above.
+MZFormSheetPresentationController is maintained as a Swift Package Manager package for iOS 15.6 and newer.
+
+> SwiftPM currently represents this package as `.iOS(.v15)` in `Package.swift`; the intended minimum runtime supported by this fork is iOS 15.6.
 
 ## Installation
-###[Carthage](https://github.com/Carthage/Carthage)
 
-Add the following line to your `Cartfile`.
+### Swift Package Manager
 
-```github "m1entus/MZFormSheetPresentationController" "master"```
+In Xcode:
 
-Then run `carthage update --no-use-binaries` or just `carthage update`. 
+1. Open your project.
+2. Go to File > Add Package Dependencies.
+3. Enter this repository URL.
+4. Select the required version, branch, or commit. If this fork has not been tagged yet, select the maintained branch directly.
+5. Add the `MZFormSheetPresentationController` package product to your app target.
 
-After building the framework you will need to add it to your project and import it using the Framework header:
+Minimum supported iOS version: 15.6.
 
-```#import <MZFormSheetPresentationController/MZFormSheetPresentationControllerFramework.h>```
+Import the library from Objective-C:
 
-For further details on the installation and usage of Carthage, visit [it's project page](https://github.com/Carthage/Carthage).
-
-
-###[CocoaPods](https://github.com/CocoaPods/CocoaPods)
-
-Add the following line to your `Podfile`.
-
-```
-# Uncomment this line to define a global platform for your project
-platform :ios, '8.0'
-# Uncomment this line if you're using Swift
-use_frameworks!
-
-target 'ProjectName' do
-    pod 'MZFormSheetPresentationController'
-end
+```objective-c
+#import <MZFormSheetPresentationController/MZFormSheetPresentationController.h>
 ```
 
-Then run `pod install --verbose` or just `pod install`. For details of the installation and usage of CocoaPods, visit [it's project page](https://github.com/CocoaPods/CocoaPods).
+Import the library from Swift after adding the package product to your app target:
+
+```swift
+import MZFormSheetPresentationController
+```
 
 ## How To Use
 
-There are two example projects, one is for Objective-C second is for Swift.
-
-Let's start with a simple example
+The legacy CocoaPods example projects have been removed from this SwiftPM-only fork. Let's start with a simple usage example
 
 Objective-C
 ``` objective-c
