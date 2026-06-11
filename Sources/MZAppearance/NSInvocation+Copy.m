@@ -24,6 +24,7 @@
 //  THE SOFTWARE.
 
 #import "NSInvocation+Copy.h"
+#import <CoreGraphics/CoreGraphics.h>
 
 @interface NSString (Encoding)
 
