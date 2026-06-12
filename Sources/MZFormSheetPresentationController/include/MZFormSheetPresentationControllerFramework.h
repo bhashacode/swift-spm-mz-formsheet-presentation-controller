@@ -9,21 +9,21 @@
 
 #import <UIKit/UIKit.h>
 
-#import <MZFormSheetPresentationController/MZFormSheetPresentationController.h>
-#import <MZFormSheetPresentationController/MZFormSheetPresentationViewController.h>
-#import <MZFormSheetPresentationController/MZFormSheetPresentationViewControllerSegue.h>
-#import <MZFormSheetPresentationController/MZFormSheetPresentationController-Bridging-Header.h>
+#import "MZFormSheetPresentationController.h"
+#import "MZFormSheetPresentationViewController.h"
+#import "MZFormSheetPresentationViewControllerSegue.h"
+#import "MZFormSheetPresentationController-Bridging-Header.h"
 
-#import <MZFormSheetPresentationController/MZTransition.h>
+#import "MZTransition.h"
 
-#import <MZFormSheetPresentationController/MZFormSheetPresentationViewControllerAnimator.h>
-#import <MZFormSheetPresentationController/MZFormSheetPresentationViewControllerAnimatedTransitioning.h>
-#import <MZFormSheetPresentationController/MZFormSheetPresentationViewControllerInteractiveAnimator.h>
-#import <MZFormSheetPresentationController/MZFormSheetPresentationViewControllerInteractiveTransitioning.h>
+#import "MZFormSheetPresentationViewControllerAnimator.h"
+#import "MZFormSheetPresentationViewControllerAnimatedTransitioning.h"
+#import "MZFormSheetPresentationViewControllerInteractiveAnimator.h"
+#import "MZFormSheetPresentationViewControllerInteractiveTransitioning.h"
 
-#import <MZFormSheetPresentationController/MZFormSheetPresentationContentSizing.h>
-#import <MZFormSheetPresentationController/MZFormSheetContentSizingNavigationController.h>
-#import <MZFormSheetPresentationController/MZFormSheetContentSizingNavigationControllerAnimator.h>
+#import "MZFormSheetPresentationContentSizing.h"
+#import "MZFormSheetContentSizingNavigationController.h"
+#import "MZFormSheetContentSizingNavigationControllerAnimator.h"
 
-#import <MZFormSheetPresentationController/MZBlurEffectAdapter.h>
-#import <MZFormSheetPresentationController/UIViewController+TargetViewController.h>
+#import "MZBlurEffectAdapter.h"
+#import "UIViewController+TargetViewController.h"
