@@ -1,0 +1,18 @@
+module MZFormSheetPresentationController {
+    header "MZFormSheetPresentationController.h"
+    header "MZFormSheetPresentationViewController.h"
+    header "MZFormSheetPresentationViewControllerSegue.h"
+    header "MZTransition.h"
+    header "MZFormSheetPresentationViewControllerAnimator.h"
+    header "MZFormSheetPresentationViewControllerAnimatedTransitioning.h"
+    header "MZFormSheetPresentationViewControllerInteractiveAnimator.h"
+    header "MZFormSheetPresentationViewControllerInteractiveTransitioning.h"
+    header "MZFormSheetPresentationContentSizing.h"
+    header "MZFormSheetContentSizingNavigationController.h"
+    header "MZFormSheetContentSizingNavigationControllerAnimator.h"
+    header "MZBlurEffectAdapter.h"
+    header "MZMethodSwizzler.h"
+    header "UIViewController+TargetViewController.h"
+    header "MZFormSheetPresentationControllerFramework.h"
+    export *
+}
