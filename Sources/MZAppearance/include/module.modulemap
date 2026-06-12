@@ -1,0 +1,5 @@
+module MZAppearance {
+    header "MZAppearance/MZAppearance.h"
+    header "MZAppearance/NSInvocation+Copy.h"
+    export *
+}
